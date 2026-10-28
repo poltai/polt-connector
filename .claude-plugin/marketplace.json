@@ -1,0 +1,15 @@
+{
+  "name": "polt-connector",
+  "description": "Claude plugin for Polt TMS and iTracker by Polt.ai.",
+  "owner": {
+    "name": "Polt.ai",
+    "email": "tech@polt.ai"
+  },
+  "plugins": [
+    {
+      "name": "polt-tms",
+      "source": "./",
+      "description": "Polt TMS and iTracker workflows for freight brokers."
+    }
+  ]
+}

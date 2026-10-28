@@ -1,0 +1,20 @@
+{
+  "name": "polt-connector",
+  "interface": {
+    "displayName": "Polt.ai"
+  },
+  "plugins": [
+    {
+      "name": "polt-tms",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
