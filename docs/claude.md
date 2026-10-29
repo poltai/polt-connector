@@ -7,7 +7,7 @@ Works in Claude on the web, the desktop app, Cowork and Claude Code. Two pieces:
 An owner sets it up once for everyone.
 
 1. **Add the connector:** **Organization settings → Connectors → Add → Custom → Web**. Name: `Polt TMS`. URL: `https://tms.polt.ai/api/mcp`.
-2. **Add the plugin:** **Organization settings → Plugins & skills**. Add this repository (`mike-polt/polt-connector`) to your organization's plugin marketplace, then make the `polt-tms` plugin available to the people who work with loads. Turn on auto-install so it appears for them without any steps.
+2. **Add the plugin:** **Organization settings → Plugins & skills**. Add this repository (`poltai/polt-connector`) to your organization's plugin marketplace, then make the `polt-tms` plugin available to the people who work with loads. Turn on auto-install so it appears for them without any steps.
 
 Each person then opens **Settings → Connectors**, selects **Connect** next to Polt TMS, and signs in with their Polt account. That's all.
 
@@ -15,12 +15,12 @@ Each person then opens **Settings → Connectors**, selects **Connect** next to 
 
 1. **Settings → Connectors → Add custom connector**. Name: `Polt TMS`. URL: `https://tms.polt.ai/api/mcp`.
 2. Select **Connect** and sign in with your Polt account.
-3. Optional but recommended: install the plugin so Claude knows the workflows. Add `mike-polt/polt-connector` as a plugin marketplace and install the `polt-tms` plugin.
+3. Optional but recommended: install the plugin so Claude knows the workflows. Add `poltai/polt-connector` as a plugin marketplace and install the `polt-tms` plugin.
 
 ## Claude Code
 
 ```bash
-claude plugin marketplace add mike-polt/polt-connector
+claude plugin marketplace add poltai/polt-connector
 claude plugin install polt-tms@polt-connector
 ```
 

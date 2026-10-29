@@ -20,7 +20,7 @@ Connect your AI assistant to **Polt TMS**, the freight brokerage platform, and *
 In Claude Code, install the plugin with:
 
 ```
-/plugin install polt-tms --marketplace mike-polt/polt-connector
+/plugin install polt-tms --marketplace poltai/polt-connector
 ```
 
 Every assistant connects to the same Polt TMS connector, a remote MCP server at `https://tms.polt.ai/api/mcp`, and uses the same workflows from [`skills/`](skills).
@@ -53,7 +53,7 @@ To disconnect your assistant, remove the Polt TMS connector in its settings (in 
 | `docs/` | Setup guides per assistant. |
 | `scripts/package.sh` | Builds the downloads: the ChatGPT plugin package, one zip per skill, and one instructions file for Gemini. |
 
-Each [release](https://github.com/mike-polt/polt-connector/releases) has those downloads attached, so nobody has to build anything.
+Each [release](https://github.com/poltai/polt-connector/releases) has those downloads attached, so nobody has to build anything.
 
 ## Privacy and support
 

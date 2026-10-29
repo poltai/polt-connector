@@ -23,9 +23,9 @@ Write actions, such as creating a load, may need a Business or Enterprise plan; 
 
 ## Add the skills
 
-Either download `polt-tms-chatgpt.zip` from the latest [release](https://github.com/mike-polt/polt-connector/releases) and upload it as a plugin, or upload the single skill zips from the same release under **Skills → Create → Upload from your computer**.
+Either download `polt-tms-chatgpt.zip` from the latest [release](https://github.com/poltai/polt-connector/releases) and upload it as a plugin, or upload the single skill zips from the same release under **Skills → Create → Upload from your computer**.
 
-In the ChatGPT desktop app you can also add this repository as a plugin marketplace (**Plugins → Add → Add a marketplace**, `mike-polt/polt-connector`) and install **Polt TMS** from it. Updates arrive when the marketplace is refreshed.
+In the ChatGPT desktop app you can also add this repository as a plugin marketplace (**Plugins → Add → Add a marketplace**, `poltai/polt-connector`) and install **Polt TMS** from it. Updates arrive when the marketplace is refreshed.
 
 ## Using it
 
