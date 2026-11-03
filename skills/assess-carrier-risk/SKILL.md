@@ -24,7 +24,7 @@ Note the evidence for every finding, and what you could not check.
 - **Contacts:** a carrier contact on a free webmail address or on a domain other than the carrier's.
 - **Driver:** CDL not verified.
 - **Price and timing:** carrier pay far below lane pricing or historical rates; carrier assigned shortly before pickup; pickup on a Friday evening, weekend or holiday; a commodity thieves target (electronics, alcohol, food and beverage, metals, pharmaceuticals, tyres).
-- **Tracking:** open alerts about simulated GPS, lost signal, off route, stopped, location mismatch, a do-not-use driver, double brokering or CDL verification; more than one tracker on the load in iTracker; tracking that started only after pickup.
+- **Tracking:** open alerts about simulated GPS, lost signal, off route, stopped, location mismatch, a do-not-use driver, double brokering or CDL verification; more than one tracker on the load in Polt Tracker; tracking that started only after pickup.
 
 ## 3. Report
 

@@ -22,4 +22,4 @@ description: Review and triage open shipment alerts and exceptions in Polt TMS â
 
 Search the schema for the alert mutations to acknowledge, snooze or resolve alerts. Read their descriptions: some actions affect only the current user, while resolving notifies the people watching the load.
 
-Before any `nexus_mutate` call, list exactly which alerts will change and how, and wait for the user's explicit confirmation. Never resolve an alert on your own judgement.
+Before any `polt_tms_mutate` call, list exactly which alerts will change and how, and wait for the user's explicit confirmation. Never resolve an alert on your own judgement.

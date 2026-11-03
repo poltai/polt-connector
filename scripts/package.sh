@@ -24,7 +24,7 @@ instructions="$dist/polt-instructions.md"
 cat > "$instructions" <<'EOF'
 # Polt TMS workflows
 
-You are connected to Polt TMS, a freight brokerage platform, and iTracker live tracking through the Polt TMS connector. Every call runs as the signed-in user with that user's permissions. iTracker is read-only. Before any change in Polt TMS, state exactly what will change and wait for the user's explicit confirmation.
+You are connected to Polt TMS, a freight brokerage platform, and Polt Tracker live tracking through the Polt TMS connector. Every call runs as the signed-in user with that user's permissions. Polt Tracker is read-only. Before any change in Polt TMS, state exactly what will change and wait for the user's explicit confirmation.
 
 EOF
 

@@ -1,9 +1,9 @@
 # Polt TMS connector for AI assistants
 
-Connect your AI assistant to **Polt TMS**, the freight brokerage platform, and **iTracker** live tracking. Ask about your loads in plain language and let the assistant help with the routine work:
+Connect your AI assistant to **Polt TMS**, the freight brokerage platform, and **Polt Tracker** live tracking. Ask about your loads in plain language and let the assistant help with the routine work:
 
 - **Find loads:** list loads by status, customer, carrier, lane, dates, open alerts or coverage, with a link to each one in Polt TMS.
-- **Track a load:** find a load by number, reference, customer or lane, and get its live position, ETA and delays from iTracker.
+- **Track a load:** find a load by number, reference, customer or lane, and get its live position, ETA and delays from Polt Tracker.
 - **Triage alerts:** see which loads need attention, grouped by severity, and acknowledge, snooze or resolve alerts.
 - **Create a load:** turn order details or a pasted rate confirmation into a validated Polt TMS load.
 - **Check a carrier:** look for signs of fraud, double brokering or cargo-theft risk on a carrier or a load, with the evidence and suggested next steps.
@@ -30,7 +30,7 @@ Every assistant connects to the same Polt TMS connector, a remote MCP server at 
 - You need a Polt user account.
 - An administrator in your company with the **Manage Integrations** permission must turn on **Allow MCP connection** in Polt TMS under **Workspace settings → Connections → MCP**. Until then, the connector refuses requests.
 - The assistant acts **as you**. Every request runs with your own Polt TMS permissions, so it can see and change only what you could in Polt TMS yourself. You sign in on the Polt login page; the assistant never sees your password.
-- iTracker data is read-only through the connector.
+- Polt Tracker data is read-only through the connector.
 - The assistant describes every change and asks for your confirmation before it creates, updates, books or resolves anything.
 
 To disconnect your assistant, remove the Polt TMS connector in its settings (in Claude: **Settings → Connectors**). An administrator can turn **Allow MCP connection** off at any time, which stops every assistant in your company from reaching Polt TMS.
