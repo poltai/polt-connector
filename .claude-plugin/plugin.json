@@ -2,7 +2,7 @@
   "name": "polt-tms",
   "displayName": "Polt TMS",
   "description": "Work with Polt TMS, the freight brokerage platform, and Polt Tracker live tracking from Claude: find and track loads, triage alerts, create loads, and quote and book LTL shipments.",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "author": {
     "name": "Polt.ai",
     "email": "tech@polt.ai",

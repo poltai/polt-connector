@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "polt-tms",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "description": "Work with Polt TMS, the freight brokerage platform, and Polt Tracker live tracking from Claude: find and track loads, triage alerts, create loads, and quote and book LTL shipments.",
   "author": {
     "name": "Polt.ai",
